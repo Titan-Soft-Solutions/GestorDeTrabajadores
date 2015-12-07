@@ -55,5 +55,6 @@
   </dependencies>
   <modules>
   	<module>Modulo1</module>
+  	<module>Modulo2</module>
   </modules>
 </project>
