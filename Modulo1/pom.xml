@@ -9,7 +9,7 @@
   </parent>
   <groupId>titansoftsolutions.Modulo1</groupId>
   <artifactId>Modulo1</artifactId>
-  <version>GdT.MOD.0.1.0</version>
+  <version>GdT.MOD.0.1.1</version>
   <name>Modulo1</name>
   <url>http://maven.apache.org</url>
   <properties>

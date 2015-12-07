@@ -1,4 +1,4 @@
-package presentacion;
+﻿package presentacion;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -17,8 +17,6 @@ import dominio.Gestion;
 import java.awt.event.WindowAdapter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import javax.swing.JComboBox;
 import javax.swing.JLabel;
 
 
@@ -78,6 +76,7 @@ public class IUAdd {
 		//Se carga el fichero
 		ges = new Gestion();
 		frame = new JFrame();
+		frame.setTitle("Insertar Trabajador");
 		frame.addWindowListener(new WindowAdapter() {
 		});
 		frame.setBounds(100, 100, 355, 389);
@@ -287,6 +286,10 @@ public class IUAdd {
 		}
 		if(tp_email.getText().compareTo("")==0){
 			JOptionPane.showMessageDialog(null, "No has introducido el email");
+			campoNulo=true;
+		}
+		if(tp_tipoContrato.getText().compareTo("")==0){
+			JOptionPane.showMessageDialog(null, "No has introducido el tipo de contrato");
 			campoNulo=true;
 		}
 		if(tp_sueldo.getText().compareTo("")==0){

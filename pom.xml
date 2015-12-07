@@ -48,7 +48,7 @@
     <dependency>
     	<groupId>titansoftsolutions.Modulo1</groupId>
     	<artifactId>Modulo1</artifactId>
-    	<version>GdT.MOD.0.1.0</version>
+    	<version>GdT.MOD.0.1.1</version>
     	<scope>system</scope>
     	<systemPath>C:\Users\Teivko-Portatil\Dropbox\Universidad\2015-2016\ISO2\Practicas\Proyecto Gestor de trabajadores\Implementacion\GestorDeTrabajadores\src\Modulo1.jar</systemPath>
     </dependency>
