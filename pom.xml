@@ -59,10 +59,19 @@
     	<systemPath>C:\Users\Teivko-Portatil\Dropbox\Universidad\2015-2016\ISO2\Practicas\Proyecto Gestor de trabajadores\Implementacion\GestorDeTrabajadores\src\Modulo2.jar</systemPath>
     	<scope>system</scope>
     </dependency>
+    <dependency>
+    	<groupId>titansoftsolutions.Modulo3</groupId>
+    	<artifactId>Modulo3</artifactId>
+    	<version>GdT.MOD.0.3.0</version>
+    	<scope>system</scope>
+    	<systemPath>C:\Users\Teivko-Portatil\Dropbox\Universidad\2015-2016\ISO2\Practicas\Proyecto Gestor de trabajadores\Implementacion\GestorDeTrabajadores\src\Modulo3.jar</systemPath>
+    </dependency>
   </dependencies>
   <modules>
   	<module>Modulo1</module>
   	<module>Modulo2</module>
   	<module>Modulo3</module>
+  	<module>Modulo4</module>
+  	
   </modules>
 </project>
