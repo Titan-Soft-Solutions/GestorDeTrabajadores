@@ -52,9 +52,17 @@
     	<scope>system</scope>
     	<systemPath>C:\Users\Teivko-Portatil\Dropbox\Universidad\2015-2016\ISO2\Practicas\Proyecto Gestor de trabajadores\Implementacion\GestorDeTrabajadores\src\Modulo1.jar</systemPath>
     </dependency>
+    <dependency>
+    	<groupId>titansoftsolutions.Modulo2</groupId>
+    	<artifactId>Modulo2</artifactId>
+    	<version>GdT.MOD.0.2.0</version>
+    	<systemPath>C:\Users\Teivko-Portatil\Dropbox\Universidad\2015-2016\ISO2\Practicas\Proyecto Gestor de trabajadores\Implementacion\GestorDeTrabajadores\src\Modulo2.jar</systemPath>
+    	<scope>system</scope>
+    </dependency>
   </dependencies>
   <modules>
   	<module>Modulo1</module>
   	<module>Modulo2</module>
+  	<module>Modulo3</module>
   </modules>
 </project>
