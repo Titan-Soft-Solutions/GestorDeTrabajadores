@@ -99,7 +99,7 @@
             </executions>
             <configuration>
                 <apiToken>${SNYK_API_TOKEN}</apiToken>
-                <failOnSeverity>medium</failOnSeverity>
+                <failOnSeverity>low</failOnSeverity>
                 <org></org>
             </configuration>
         </plugin>
